@@ -31,12 +31,12 @@ Recent technological advances allow the measurement, in a single Hi-C
 experiment, of the frequencies of physical contacts among pairs of genomic
 loci at a genome-wide scale.
 
-**Iced** implements fast and memory efficient normalization methods, such the
-ICE normalization strategy or the SCN algorithm. It is included in the HiC-pro
-pipeline, that processes data from raw fastq files to normalized contact maps.
-iced eventually grew bigger than just being a normalization packages, and
-contains a number of utilities functions that may be useful if you are
-analyzing and processing Hi-C data.
+[**Iced**](https://github.com/hiclib/iced) implements fast and memory
+efficient normalization methods, such the ICE normalization strategy or the
+SCN algorithm. It is included in the HiC-pro pipeline, that processes data
+from raw fastq files to normalized contact maps. iced eventually grew bigger
+than just being a normalization packages, and contains a number of utilities
+functions that may be useful if you are analyzing and processing Hi-C data.
 
 Moving from sequencing reads to a normalized contact map is a challenging
 task. Hi-C usually requires several millions to billions of paired-end
@@ -53,3 +53,5 @@ ease-of-use, performance, maintainability, and memory-efficiency. This
 implementation leverages a memory-efficient data format of Hi-C maps, and
 outperforms both in speed and memory usage HiCorrector [@li:hi-corrector], a
 parallelized C++ implementation of the same algorithm.
+
+# References
